@@ -1,0 +1,3 @@
+class OrnamentController < ApplicationController
+
+end

@@ -1,0 +1,3 @@
+class LightController < ApplicationController
+
+end
