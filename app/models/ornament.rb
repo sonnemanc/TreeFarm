@@ -1,3 +1,0 @@
-class Ornament
-
-end

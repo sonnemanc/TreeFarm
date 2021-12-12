@@ -1,3 +1,0 @@
-class OrnamentController < ApplicationController
-
-end
