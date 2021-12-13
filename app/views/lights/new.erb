@@ -1,0 +1,19 @@
+<h2>Now taking orders for custom lights!</h2>
+
+<p>Previously Ordered Lights</p>
+
+<% @lights.each do |light| %>
+  <div>
+    <%= light.color %>
+  </div>
+
+<% end %>
+
+<br>
+
+<form action="/lights" method="POST">
+  <label for="light_color">Add your custom color below!</label><br>
+  <input id="light_name" type="text" name="light[color]" />
+
+  <input type="submit" value="Create New Light!">
+</form>

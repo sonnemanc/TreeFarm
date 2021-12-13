@@ -1,0 +1,8 @@
+<h2>Edit a Light</h2>
+
+<form action="/lights/<%=@light.id%>" method="POST">
+<label for="light_color">Color</label>
+<input id="color" type="text" name="light[color]" value=<%=@light.color%> />
+
+<input type="submit" value="Edit Light">
+</form>

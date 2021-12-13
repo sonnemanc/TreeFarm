@@ -1,0 +1,7 @@
+<h2>Christmas Trees!</h2>
+
+<% @trees.each do |tree| %>
+    <div>
+      <%= tree.name %> | <%= tree.height %> | <%= tree.price %>
+    </div>
+<% end %>

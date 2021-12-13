@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 2021_12_12_215406) do
 
   create_table "trees", force: :cascade do |t|
     t.string "name"
-    t.integer "height"
+    t.string "height"
     t.float "price"
   end
 
