@@ -1,3 +1,6 @@
-require_relative "config/environment"
+require "./config/environment"
 
+
+use TreeController
+use LightController
 run ApplicationController
